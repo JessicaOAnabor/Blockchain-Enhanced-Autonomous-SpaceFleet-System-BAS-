@@ -13,29 +13,37 @@ These issues are compounded by the need for scalable systems capable of conducti
 ## Approach/Methodology
 The approach taken in this project involves integrating Ethereum Sepolia and Polkadot and, to ensure effective communication, a Substrate Pallet was set up. 
 
-# Ethereum Sepolia and Polkadot Integration:
+## Ethereum Sepolia and Polkadot Integration:
 Ethereum Sepolia: A robust testnet for Ethereum, Sepolia is used to implement and test BAS’s smart contracts, ensuring a scalable and reliable decentralized application architecture. Sepolia allows developers to simulate real-world operations cost-effectively before deploying on Ethereum’s mainnet.
 
-# Polkadot Integration: 
+## Polkadot Integration: 
 Offers cross-chain communication through its relay chain architecture, enabling BAS to interface seamlessly with other blockchain networks. Polkadot ensures interoperability, facilitating data exchange and operations between BAS and other decentralized systems
 
-# Decentralized Autonomous Decision-Making: 
+## Decentralized Autonomous Decision-Making: 
 Each spacecraft in the fleet is equipped with an autonomous decision-making system that handles navigation, resource management, and mission-critical actions. These systems are powered by AI and machine learning algorithms, enabling them to make real-time decisions based on their environment and mission parameters.
 
 Blockchain Integration: Each autonomous decision, whether it’s a course correction, system adjustment, or safety protocol, is logged onto a blockchain in real-time. This ensures that all actions are recorded in an immutable, transparent ledger, creating a verifiable trail of all autonomous operations.
 
-# Secure and Transparent Communication: 
+## Secure and Transparent Communication: 
 Spacecraft in the fleet will communicate with each other and ground stations through a blockchain-enabled communication network. This network allows for tamper-proof, encrypted messages between spacecraft and Earth, preventing unauthorized access or manipulation of critical data.
 
 Inter-Spacecraft Communication: Spacecraft can send autonomous decisions, status updates, and data to other spacecraft in the fleet via blockchain, ensuring that all spacecraft in the mission are synchronized and operate in accordance with the agreed-upon protocols.
 
-# Cross-chain as an Audit Trail: 
+## Cross-chain as an Audit Trail: 
 The cross-chain serves as an audit trail for all decisions and actions taken by each spacecraft. This is especially important for deep-space missions where communication delays (e.g., Mars) could make real-time human oversight challenging. The immutable ledger ensures that every decision made by the spacecraft's autonomous systems can be reviewed, analyzed, and validated after the fact.
 
-# Incident Reporting and Review: 
+## Incident Reporting and Review: 
 If an anomaly or issue occurs, the blockchain-based audit trail provides a transparent log of the autonomous systems' actions leading up to the event. This allows for thorough post-mission analysis to understand what went wrong and how to improve future operations.
 
 Smart Contracts for Autonomous Compliance: Smart Contracts ensure that all spacecraft comply with mission protocols. These contracts are pre-programmed rules that automatically execute when certain conditions are met. For example, a smart contract might trigger a spacecraft to initiate a course correction if it detects it’s off-track, or it might manage fuel reserves by controlling resource usage in real-time.
 
-# Contributor:
+## How Analog Testnet Benefits to Long-Term Mission Success:
+
+Fault Tolerance: If a spacecraft encounters a communication issue due to long-distance space travel (like to Mars), the Analog Testnet can simulate these challenges, ensuring that BAS maintains its operations even with minimal human oversight.
+
+Adaptability: Using the testnet allows the user to refine how BAS dynamically adjusts to mission challenges, whether it's a deviation from trajectory or an unexpected system malfunction, before it faces the risks of a real mission.
+
+## Contributor:
 Jessica O. Anabor
+
+
